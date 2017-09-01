@@ -2,6 +2,15 @@
 ### Introduction
 In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
 
+### Reflections
+
+This project is a fairly straight forward project of implementing FCN on road images based on pre trained VGG model. Implementation was completed based on the following [paper](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf) on Fully Convolutional Networks for Semantic Segmentation. The following [slides](https://docs.google.com/presentation/d/10XodYojlW-1iurpUsMoAZknQMS36p7lVIfFZ-Z7V_aY/edit?usp=sharing) provides a summary of the approach.
+
+### To Dos 
+
+* Implement image augmentation such as flipping images vertically and horizontally to have the model learn the patterns and connections between pixels instead of shapes or orientation of the target class.
+* Implement Intersection Over Union (IOU) metric to measure performance of model on semantic segmentation.
+
 ### Setup
 ##### Frameworks and Packages
 Make sure you have the following is installed:
